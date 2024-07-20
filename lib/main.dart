@@ -6,7 +6,6 @@ import 'package:provider/provider.dart';
 import 'appstate.dart';
 import 'firebase_options.dart';
 import 'signin.dart';
-import 'signup.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

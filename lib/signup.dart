@@ -32,6 +32,7 @@ class _SignUpState extends State<SignUp> {
   void _signUp() async {
     if (_formKey.currentState!.validate()) {
       try {
+        // ignore: unused_local_variable
         UserCredential userCredential =
             await _auth.createUserWithEmailAndPassword(
           email: _emailController.text,

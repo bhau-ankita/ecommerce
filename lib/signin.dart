@@ -28,6 +28,7 @@ class _SignInState extends State<SignIn> {
   void _signIn() async {
     if (_formKey.currentState!.validate()) {
       try {
+        // ignore: unused_local_variable
         UserCredential userCredential = await _auth.signInWithEmailAndPassword(
           email: _emailController.text,
           password: _passwordController.text,
